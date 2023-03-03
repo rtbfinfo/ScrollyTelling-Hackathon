@@ -199,7 +199,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #F05F40;
 }
 
-.navbar-default .nav li a {
+.navbar-default .navbar-nav li a {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -210,8 +210,8 @@ fieldset[disabled] .btn-xl.active {
     transition: all ease .35s;
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
     outline: 0;
     color: #F05F40;
 }
@@ -495,6 +495,18 @@ section h3.section-subheading {
     background-color: #F05F40;
 }
 
+.timeline>li:nth-of-type(3n+0) .timeline-image {
+    background-color: dodgerblue;
+}
+
+.timeline>li:nth-of-type(3n+1) .timeline-image {
+    background-color:lightgreen;
+}
+
+.timeline>li:nth-of-type(3n+2) .timeline-image {
+    background-color:tomato;
+}
+
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;
@@ -537,6 +549,10 @@ section h3.section-subheading {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+
+.timeline .list-group {
+    text-align: left;
 }
 
 @media(min-width:768px) {

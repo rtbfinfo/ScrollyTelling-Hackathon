@@ -16,9 +16,14 @@ $(function() {
 });
 
 // Highlight the top nav as scrolling occurs
-$('body').scrollspy({
-    target: '.navbar-fixed-top'
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    target: '.fixed-top'
 })
+  
+$('.email').click(function(){
+    window.open('mailto:hackathon@rtbf.be?subject=Informations sur le hackathon', 'mail');
+    event.preventDefault();
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
