@@ -18,6 +18,32 @@ En effet à l'heure actuelle la simple formation, le diplôme, ne suffit plus. U
 
 Ce repository contient les informations liées à  e premier hackathon.
 
-Enhoy, fork, star !!!
+Enjoy, fork, star !!!
 
 Sharing is caring!
+
+## Technical Setup
+
+### Data Visualization
+
+La data vizualization sur le web peut-être réalisée via des images, des vidéos mais également un élément HTML appelé [canvas](https://developer.mozilla.org/fr/docs/Web/HTML/Element/canvas) dans laquelle il est possible d'afficher des pixels et donc de dessiner, colorier, animer. Il est également possible de décrire des images vectorielles avec un format HTML vectoriel: [SVG](https://developer.mozilla.org/fr/docs/Web/SVG) et c'est probablement le point de départ le plus facile.
+
+Il est possible en Javascript de manipuler facilement l'object **canvas** gràce à [Canvas API](https://developer.mozilla.org/fr/docs/Web/API/Canvas_API).
+
+## Web Page
+
+L'objectif du hackathon est de produire un article web, c'est à dire du texte, de l'image éventuellement de la vidéo et parce qu'on choisi du contenu basé sur des chiffres il va falloir les faire parler.
+
+Pour délivrer une page web sur un ordinateur, il est nécessaire d'avoir un service Web (c'est le nom) qui tourne sur un serveur et qui est capable de renvoyer du code HTML, des images, des fichiers css et javascript à un navigateur afin de lui permettre de faire le rendu afin que l'utilisateur puisse lire l'article et interagir avec le document.
+
+Ca peut avoir l'air complexe mais en réalité c'est assez facile aujourd'hui.
+
+Le serveur c'est votre ordinateur (Mac, Linux, windows).
+
+Le service web pourra être rendu par NodeJS.
+
+* Utilisateur Windows suivez ce tutoriel: [NVM & Node JS Sous Windows](https://github.com/coreybutler/nvm-windows)
+* Utilisateur Mac et Linux suivez ce tutoriel: [NVM & Node JS Mac & Linux](https://github.com/nvm-sh/nvm).
+
+Nous allons partir d'une page déjà existante pour gagner du temps.
+
