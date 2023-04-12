@@ -24,6 +24,10 @@ Sharing is caring!
 
 ## Technical Setup
 
+Il est nécessaire d'installer sur votre machine:
+* [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [node](https://github.com/nvm-sh/nvm) ou [node pour windows](https://github.com/coreybutler/nvm-windows)
+
 ### Data Visualization
 
 La data vizualization sur le web peut-être réalisée via des images, des vidéos mais également un élément HTML appelé [canvas](https://developer.mozilla.org/fr/docs/Web/HTML/Element/canvas) dans laquelle il est possible d'afficher des pixels et donc de dessiner, colorier, animer. Il est également possible de décrire des images vectorielles avec un format HTML vectoriel: [SVG](https://developer.mozilla.org/fr/docs/Web/SVG) et c'est probablement le point de départ le plus facile.
@@ -47,3 +51,16 @@ Le service web pourra être rendu par NodeJS.
 
 Nous allons partir d'une page déjà existante pour gagner du temps.
 
+## Environnement de développement
+
+Pour utiliser des composants déjà fait et générer pour nous notre page complète nous utiliserons également NodeJS.
+
+Comme framework nous avons choisi Svelte car il est simple et compréhensible tout en proposant une belle librairie de composant. Il est également maintenu ce qui évite de perdre du temps avec des éléments déprécié depuis longtemps.
+
+### Creer son premier programme avec svelte
+
+```bash
+npm create vite@latest my-svelte-project -- --template svelte
+cd my-svelte-project
+npm install
+```
